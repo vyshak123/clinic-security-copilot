@@ -1,0 +1,31 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl.bak
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Azure Functions local settings (contain secrets)
+local.settings.json
+
+# Environment / secrets
+.env
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+.vscode/
